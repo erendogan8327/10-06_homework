@@ -1,18 +1,28 @@
 h1 {
     text-align: center;
-  }
-  td {
+}
+
+td {
+    text-align: center;
+    font-size: 32px;
     width: 100px;
     height: 100px;
-  }
-  table {
+}
+
+td:hover {
+    background: red;
+}
+
+table {
     margin: 5px auto;
-  }
-  .yatay {
+}
+
+.yatay {
     border-left: 2px solid black;
     border-right: 2px solid black;
-  }
-  .dikey {
+}
+
+.dikey {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-  }
+}
